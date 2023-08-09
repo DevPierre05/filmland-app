@@ -9,8 +9,8 @@ export default function Error({ searchItem }) {
         alt="Image of searching"
         className="w-[25rem] md:w-[34rem] opacity-80 dark:opacity-50"
       />
-      <h2 className="sm:text-4xl font-bold">No Results 🤨</h2>
-      <p className="sm:text-3xl text-center w-[18rem] sm:w-[25rem] md:w-[34rem] mb-2">
+      <h2 className="font-bold sm:text-4xl">No Results 🤨</h2>
+      <p className="mb-2 text-center w-[18rem] sm:text-3xl sm:w-[25rem] md:w-[34rem]">
         Movie title <span className="italic">{`"${searchItem}"`}</span> was not
         found. Please check internet connection, spellings and try again
       </p>
