@@ -40,7 +40,7 @@ function App() {
     return <MovieCard key={i} movie={movie} />;
   });
 
-  console.log(movieArray);
+  console.log(movieList);
 
   return (
     <>

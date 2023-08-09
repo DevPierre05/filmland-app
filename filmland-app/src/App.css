@@ -35,6 +35,16 @@ font-family: 'Karla', sans-serif;
   transform: scale(1.05);
 }
 
+.movie_grid .movie_poster:hover + .year_movie {
+  transform: scale(1.05);
+  display: block;
+}
+
+.year_movie {
+  display: none;
+}
+
+
 .error-message {
   /* font-family: 'Source Code Pro', monospace; */
   /* font-family: 'Barlow', sans-serif; */
