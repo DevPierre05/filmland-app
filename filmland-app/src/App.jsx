@@ -14,7 +14,7 @@ function App() {
 
   const apiKey = import.meta.env.VITE_FILMLAND_API_KEY;
 
-  const API_URL = `http://www.omdbapi.com?apikey=${apiKey}`;
+  const API_URL = `https://www.omdbapi.com?apikey=${apiKey}`;
 
   const handleChange = (event) => {
     setInputItem(event.target.value);
