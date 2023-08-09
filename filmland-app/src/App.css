@@ -1,0 +1,49 @@
+/* #root {
+  max-width: 1480px;
+  color: #fff;
+  background-color: #01010a;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 100vh;
+} */
+
+body {
+  /* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Barlow Condensed', sans-serif; */
+/* font-family: 'Bellefair', serif; */
+/* font-family: 'Exo 2', sans-serif; */
+font-family: 'Karla', sans-serif; 
+}
+
+.heading {
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+
+.movie_grid {
+  display: grid;
+  gap: 1.2rem;
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-content: center;
+  justify-items: center;
+}
+
+.movie_grid .movie_poster:hover {
+  transform: scale(1.05);
+}
+
+.error-message {
+  /* font-family: 'Source Code Pro', monospace; */
+  /* font-family: 'Barlow', sans-serif; */
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+@media (max-width:480px) {
+  .movie_grid{
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    row-gap: 2rem;
+  }
+}
